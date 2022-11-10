@@ -84,16 +84,15 @@
             <img src="images/linia.svg" alt="линия" class="line-svg"> 
          </a>
          <h1 class="connection">Cвязаться со мной</h1>
-         <a class="phone" href=tel:79656026255>Телефон: +7-9656-026-255    </a>
-         <a class="telegram" href=https://t.me/yryry_21>Telegram: @yryry_21    </a>
-         <a class="GitHub" href=https://github.com/yryry2112>GitHub: @yryry_2112    </a>
+         <a data-test-id="link__telephone" class="phone" href=tel:79656026255>Телефон: +7-9656-026-255    </a>
+         <a data-test-id="link__telegram" class ="telegram" href=https://t.me/yryry_21>Telegram: @yryry_21    </a>
+         <a data-test-id="link__GitHub" class="GitHub" href=https://github.com/yryry2112>GitHub: @yryry_2112    </a>
         </nav>
     </div>
-        <section class="mem">
+        <section data-test-id="block__mem" class="mem">
             <div class="container">
                 <h1 class="text_mem">Мем</h1>
                 <iframe  width="560" height="315" src="https://www.youtube.com/embed/baY3SaIhfl0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            
             </div>
         </section>
         <section class="wishes">
@@ -101,13 +100,13 @@
                 <h1 class="text_wishes">Пожелай мне чего-нибудь</h1>
                 <fieldset class="forma">
                     <legend>Напиши своё пожелание</legend>
-                    <p>Имя:<Br>
-                    <label><input type="text"></label><Br>
+                    <p data-test-id="text__name" >Имя:<Br>
+                    <label><input data-test-id="input__name" type="text"></label><Br>
                   <Br>
-                      <input id="html" type="checkbox">
+                      <input data-test-id="checkbox__name" id="html" type="checkbox">
                       <label for="html">Отправить анонимно </label><Br>
                       <Br>
-                    <input type="submit" value="Отправить">
+                    <input data-test-id="submit__send" type="submit" value="Отправить">
                   </fieldset>
 
                 </form>
